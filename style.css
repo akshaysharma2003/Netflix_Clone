@@ -1,0 +1,977 @@
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+  font-family: 'Times New Roman', Times, serif;
+}
+#shocase{
+  height: 100vh;
+  width: 100%;
+  background: url(/NETFLIXMATERIAL/landing\ page.jpg),
+    linear-gradient(to top, rgba(0, 0, 0, 0.568), rgba(0, 0, 0, 0.918));
+  background-position: center;
+  background-size: cover;
+  background-blend-mode: multiply;
+  position: relative;
+  background-repeat: no-repeat;
+}
+header {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 50px;
+}
+header .logo img {
+  height: 65px;
+}
+#select {
+  padding: 5px 10px;
+  font-weight: bolder;
+  color: white;
+  background: transparent;
+  border-radius: 3px;
+  border: 1px solid gray;
+  margin-right: 25px;
+}
+button {
+  padding: 9px 22px;
+  outline: none;
+  border-radius: 4px;
+  border: none;
+  color: white;
+  font-weight: bold;
+  background: linear-gradient(rgb(231, 17, 17), red, rgb(238, 13, 13));
+  cursor: pointer;
+}
+.content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%)
+}
+.content h1 {
+  font-size: 60px;
+  line-height: 70px;
+  font-weight: 600;
+  color: white;
+  margin-bottom: 20px;
+  text-align: center;
+}
+.content h3 {
+  font-weight: 400;
+  margin-bottom: 20px;
+  color: white;
+  text-align: center;
+}
+.content p {
+  color: white;
+  margin-bottom: 20px;
+  text-align: center;
+}
+.sign-up {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+  overflow: hidden;
+  justify-content: space-between;
+  width: 100%;
+  height: 45px;
+}
+.sign-up input {
+  height: 100%;
+  width: 70%;
+  border-radius: 4px;
+  padding-left: 10px;
+  outline: none;
+  border: none;
+}
+.sign-up button {
+  width: 29%;
+  /* margin-left: 5px; */
+  height: 45px;
+  font-size: 16px;
+  font-weight: normal;
+}
+
+/* THE ENJOY SECTION START HERE  ===========================================================================*/
+
+#enjoy {
+  background-color: black;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  border-top: 1px solid gray;
+  padding: 50px 0px;
+}
+.ejout-text {
+  width: 35%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding-left: 100px;
+}
+.ejout-text h1 {
+  color: white;
+  margin-bottom: 20px;
+  font-size: 38px;
+  font-weight: 700;
+}
+.ejout-text h3 {
+  color: whitesmoke;
+  font-weight: 100;
+  line-height: 25px;
+}
+.ejouy-img {
+  width: 40%;
+}
+.ejouy-img img {
+  width: 100%;
+}
+
+/* DOWNLOAD YOUR SHOWS SECTION START HERE=========================================================================== */
+
+#enjoy2 {
+  background-color: black;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  border-top: 1px solid gray;
+  padding: 50px 0px;
+}
+.ejout-text2 {
+  width: 43%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding-left: 50px;
+  padding-right: 100px;
+}
+.ejout-text2 h1 {
+  color: white;
+  margin-bottom: 20px;
+  font-size: 38px;
+  font-weight: 700;
+}
+.ejout-text2 h3 {
+  color: whitesmoke;
+  font-weight: 100;
+  line-height: 25px;
+}
+.ejouy-img2 {
+  width: 40%;
+}
+.ejouy-img2 img {
+  width: 100%;
+}
+
+/*  WATCH EVERYWHERE SHOWS SECTION START HERE=================================================== */
+
+#enjoy3 {
+  background-color: black;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  border-top: 1px solid gray;
+  padding: 50px 0px;
+}
+.ejout-text3 {
+  width: 40%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding-left: 100px;
+}
+.ejout-text3 h1 {
+  color: white;
+  margin-bottom: 20px;
+  font-size: 38px;
+  font-weight: 700;
+}
+.ejout-text3 h3 {
+  color: whitesmoke;
+  font-weight: 100;
+  line-height: 25px;
+}
+.ejouy-img3 {
+  width: 40%;
+}
+.ejouy-img3 img {
+  width: 100%;
+}
+
+/* CREATE PROFILES FOR CHILDREN. SECTION START HERE==================================================*/
+
+#enjoy4 {
+  background-color: black;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  border-top: 1px solid gray;
+  padding: 50px 0px;
+}
+.ejout-text4 {
+  width: 43%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding-left: 50px;
+  padding-right: 100px;
+}
+.ejout-text4 h1 {
+  color: white;
+  margin-bottom: 20px;
+  font-size: 38px;
+  font-weight: 700;
+}
+.ejout-text4 h3 {
+  color: whitesmoke;
+  font-weight: 100;
+  line-height: 25px;
+}
+.ejouy-img4 {
+  width: 40%;
+}
+.ejouy-img4 img {
+  width: 100%;
+}
+
+/* THE FREQUENTLY  ASKED QUESTION SECTION START HERE===============================================*/
+
+#frequently {
+  background-color: black;
+  width: 100%;
+  display: flex;
+  border-top: 1px solid gray;
+  color: white;
+  padding: 50px 0px;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+#frequently h1 {
+  font-size: 34px;
+}
+.questions {
+  margin: 60px 0px;
+  width: 100%;
+  max-width: 750px;
+}
+.questions li {
+  width: 100%;
+  padding: 5px;
+}
+.questions li label {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  font-size: 18px;
+  font-weight: 500;
+  background: #303030;
+  margin-bottom: 2px;
+  cursor: pointer;
+  position: relative;
+}
+label::after {
+  content: "+";
+  font-size: 34px;
+  position: absolute;
+  right: 20px;
+  transition: transform 0.5s;
+}
+input[type="checkbox"] {
+  display: none;
+}
+.contcnt {
+  background: #303030;
+  text-align: left;
+  padding: 0px 20px;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-hight 0.5s, padding 0.5s;
+}
+.questions input[type="checkbox"]:checked + label + .contcnt {
+  max-height: 600px;
+  padding: 30px 20px;
+  line-height: 25px;
+}
+.questions input[type="checkbox"]:checked + label::after {
+  transform: rotate(135deg);
+}
+#frequently .sign-up {
+  width: 50%;
+  margin: auto;
+  margin-top: 20px;
+}
+
+/* THE FOOTER SECTION START HERE========================================== */
+
+#foter{
+  border-top: 1px solid gray;
+  width: 100%;
+  background-color: black;
+  padding: 80px 0px 30px 0px;
+}
+.foot-test-up {
+  width: 70%;
+  margin: auto;
+  color: gray;
+  margin-bottom: 20px;
+}
+.foot-links-row {
+  width: 70%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+.foot-links-row ul li {
+  margin: 12px 0px;
+}
+.foot-links-row ul li a {
+  color: gray;
+}
+#foter .foot-en {
+  margin: auto;
+  width: 70%;
+  margin-top: 20px;
+}
+
+/* THE MEDIA QUERY SECTION START HERE ===========================================*/
+
+@media screen and (max-width:890px) {
+  header .logo img {
+    height: 55px;
+  }
+  #select {
+    padding: 4px 8px;
+    font-weight: bolder;
+    color: white;
+    background: transparent;
+    border-radius: 3px;
+    border: 1px solid gray;
+    margin-right: 22px;
+  }
+  button {
+    padding: 8px 20px;
+    outline: none;
+    border-radius: 4px;
+    border: none;
+    color: white;
+    font-weight: bold;
+    background: linear-gradient(rgb(231, 17, 17), red, rgb(238, 13, 13));
+    cursor: pointer;
+  }
+  .content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%,-50%);
+    width: 80%;
+    margin: auto;
+  }
+  .content h1 {
+    font-size: 50px;
+    font-weight: 600;
+    color: white;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  .content h3 {
+    font-weight: 400;
+    margin-bottom: 20px;
+    color: white;
+    text-align: center;
+  }
+  .content p {
+    color: white;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  .sign-up {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    overflow: hidden;
+    justify-content: space-between;
+    width: 100%;
+    height: 40px;
+  }
+  .sign-up input {
+    height: 100%;
+    width: 70%;
+    border-radius: 4px;
+    padding-left: 5px;
+    outline: none;
+    border: none;
+  }
+  .sign-up button {
+    width: 29%;
+    height: 40px;
+    font-size: 15px;
+    font-weight: normal;
+  }
+  #frequently {
+    background-color: black;
+    width: 100%;
+    display: flex;
+    border-top: 1px solid gray;
+    color: white;
+    padding: 50px 100px;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  #frequently h1 {
+    font-size: 30px;
+  }
+  .questions {
+    margin: 60px 0px;
+    width: 100%;
+    max-width: 750px;
+  }
+  .questions li {
+    width: 100%;
+    padding: 4px;
+  }
+  .questions li label {
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    font-size: 16px;
+    font-weight: 500;
+    background: #303030;
+    margin-bottom: 2px;
+    cursor: pointer;
+    position: relative;
+  }
+  label::after {
+    content: "+";
+    font-size: 30px;
+    position: absolute;
+    right: 20px;
+    transition: transform 0.5s;
+  }
+  input[type="checkbox"] {
+    display: none;
+  }
+  .contcnt {
+    background: #303030;
+    text-align: left;
+    padding: 0px 20px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-hight 0.5s, padding 0.5s;
+  }
+  .questions input[type="checkbox"]:checked + label + .contcnt {
+    max-height: 600px;
+    padding: 30px 20px;
+    line-height: 25px;
+  }
+  .questions input[type="checkbox"]:checked + label::after {
+    transform: rotate(135deg);
+  }
+  #frequently .sign-up {
+    width: 100%;
+    margin: auto;
+    margin-top: 20px;
+  }
+}
+
+@media screen and (max-width:810px) {
+  #enjoy {
+    background-color: black;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    border-top: 1px solid gray;
+    padding: 50px 0px;
+  }
+  .ejout-text {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-left: 50px;
+  }
+  .ejout-text h1 {
+    color: white;
+    margin-bottom: 20px;
+    font-size: 30px;
+    font-weight: 700;
+  }
+  .ejout-text h3 {
+    color: whitesmoke;
+    font-weight: 100;
+    line-height: 25px;
+  }
+  .ejouy-img {
+    width: 40%;
+  }
+  .ejouy-img img {
+    width: 100%;
+  }
+  
+  /* DOWNLOAD YOUR SHOWS SECTION START HERE=============================================== */
+  
+  #enjoy2 {
+    background-color: black;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    border-top: 1px solid gray;
+    padding: 50px 0px;
+  }
+  .ejout-text2 {
+    width: 53%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-left: 25px;
+    padding-right: 50px;
+  }
+  .ejout-text2 h1 {
+    color: white;
+    margin-bottom: 20px;
+    font-size: 30px;
+    font-weight: 700;
+  }
+  .ejout-text2 h3 {
+    color: whitesmoke;
+    font-weight: 100;
+    line-height: 25px;
+  }
+  .ejouy-img2 {
+    width: 40%;
+  }
+  .ejouy-img2 img {
+    width: 100%;
+  }
+  
+  /*  WATCH EVERYWHERE SHOWS SECTION START============================================================ */
+  
+  #enjoy3 {
+    background-color: black;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    border-top: 1px solid gray;
+    padding: 50px 0px;
+  }
+  .ejout-text3 {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-left: 50px;
+  }
+  .ejout-text3 h1 {
+    color: white;
+    margin-bottom: 20px;
+    font-size: 30px;
+    font-weight: 700;
+  }
+  .ejout-text3 h3 {
+    color: whitesmoke;
+    font-weight: 100;
+    line-height: 25px;
+  }
+  .ejouy-img3 {
+    width: 40%;
+  }
+  .ejouy-img3 img {
+    width: 100%;
+  }
+  
+  /* CREATE PROFILES FOR CHILDREN.===============================================*/
+  
+  #enjoy4 {
+    background-color: black;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    border-top: 1px solid gray;
+    padding: 50px 0px;
+  }
+  .ejout-text4 {
+    width: 53%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-left: 30px;
+    padding-right: 50px;
+  }
+  .ejout-text4 h1 {
+    color: white;
+    margin-bottom: 20px;
+    font-size: 30px;
+    font-weight: 700;
+  }
+  .ejout-text4 h3 {
+    color: whitesmoke;
+    font-weight: 100;
+    line-height: 25px;
+  }
+  .ejouy-img4 {
+    width: 40%;
+  }
+  .ejouy-img4 img {
+    width: 100%;
+  }
+}
+@media screen and (max-width:600px) {
+  #frequently {
+    background-color: black;
+    width: 100%;
+    display: flex;
+    border-top: 1px solid gray;
+    color: white;
+    padding: 50px 20px;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .sign-up input {
+    height: 100%;
+    width: 70%;
+    border-radius: 4px;
+    padding-left: 5px;
+    outline: none;
+    border: none;
+  }
+  .sign-up button {
+    width: 29%;
+    height: 40px;
+    font-size: 13px;
+    font-weight: normal;
+  }
+  .foot-links-row {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    row-gap: 20px;
+  }
+  .foot-links-row ul{
+    width: 50%;
+    margin: auto;
+  }
+}
+
+@media screen and (max-width:500px) {
+  #enjoy {
+    background-color: black;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    border-top: 1px solid gray;
+    padding: 50px 0px;
+  }
+  .ejout-text {
+    width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  padding: 0 1rem;
+  }
+  .ejout-text h1 {
+    color: white;
+    margin-bottom: 10px;
+    font-size: 30px;
+    font-weight: 700;
+  }
+  .ejout-text h3 {
+    color: whitesmoke;
+    font-weight: 100;
+    line-height: 25px;
+  }
+  .ejouy-img {
+    width: 100%;
+text-align: center;
+  }
+  .ejouy-img img {
+    width: 60%;
+  }
+  header .logo img {
+    height: 40px;
+  }
+  #select {
+    padding: 5px 7px;
+    font-weight: bolder;
+    color: white;
+    background: transparent;
+    border-radius: 3px;
+    border: 1px solid gray;
+    margin-right: 1px;
+    font-size: 12px;
+  }
+  button {
+    padding: 5px 12px;
+    outline: none;
+    border-radius: 4px;
+    border: none;
+    color: white;
+    /* font-weight: bold; */
+    background: linear-gradient(rgb(231, 17, 17), red, rgb(238, 13, 13));
+    cursor: pointer;
+  }
+  .content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%,-50%);
+    width: 80%;
+    margin: auto;
+  }
+  .content h1 {
+    font-size: 40px;
+    font-weight: 600;
+    color: white;
+    margin-bottom: 10px;
+    text-align: center;
+    line-height: 50px;
+  }
+  .content h3 {
+    font-weight: 400;
+    margin-bottom: 15px;
+    color: white;
+    text-align: center;
+  }
+  .content p {
+    color: white;
+    margin-bottom: 15px;
+    text-align: center;
+  }
+  .sign-up {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    width: 100%;
+    height: 35px;
+  }
+  .sign-up input {
+    height: 100%;
+    width: 70%;
+    border-radius: 4px;
+    padding-left: 5px;
+    outline: none;
+    border: none;
+  }
+  .sign-up button {
+    width: 29%;
+    height: 35px;
+    font-size: 10px;
+    font-weight: normal;
+  }
+  #frequently {
+    background-color: black;
+    width: 100%;
+    display: flex;
+    border-top: 1px solid gray;
+    color: white;
+    padding: 50px 10px;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  #frequently h1 {
+    font-size: 28px;
+  }
+  .questions {
+    margin: 60px 0px;
+    width: 100%;
+    max-width: 750px;
+  }
+  .questions li {
+    width: 100%;
+    padding: 2px;
+  }
+  .questions li label {
+    display: flex;
+    align-items: center;
+    padding: 13px;
+    font-size: 14px;
+    font-weight: 500;
+    background: #303030;
+    margin-bottom: 2px;
+    cursor: pointer;
+    position: relative;
+  }
+  label::after {
+    content: "+";
+    font-size: 30px;
+    position: absolute;
+    right: 20px;
+    transition: transform 0.5s;
+  }
+  input[type="checkbox"] {
+    display: none;
+  }
+  .contcnt {
+    background: #303030;
+    text-align: left;
+    padding: 0px 20px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-hight 0.5s, padding 0.5s;
+  }
+  .questions input[type="checkbox"]:checked + label + .contcnt {
+    max-height: 600px;
+    padding: 30px 20px;
+    line-height: 25px;
+  }
+  .questions input[type="checkbox"]:checked + label::after {
+    transform: rotate(135deg);
+  }
+  #frequently .sign-up {
+    width: 100%;
+    margin: auto;
+    margin-top: 20px;
+  }
+  header {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 20px;
+  }
+  #enjoy2{
+    background-color: black;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    border-top: 1px solid gray;
+    padding: 50px 0px;
+  }
+  .ejout-text2 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 0 1rem;
+    margin-top: 30px;
+  }
+  .ejout-text2 h1 {
+    color: white;
+    margin-bottom: 20px;
+    font-size: 30px;
+    font-weight: 700;
+  }
+  .ejout-text2 h3 {
+    color: whitesmoke;
+    font-weight: 100;
+    line-height: 25px;
+  }
+  .ejouy-img2 {
+    width: 100%;
+    text-align: center;
+  }
+  .ejouy-img2 img {
+    width: 70%;
+  }
+  
+  /*  WATCH EVERYWHERE SHOWS SECTION START=========================================== */
+  
+  #enjoy3 {
+    background-color: black;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    border-top: 1px solid gray;
+    padding: 50px 0px;
+  }
+  .ejout-text3 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 0 1rem;
+    margin-bottom: 30px;
+  }
+  .ejout-text3 h1 {
+    color: white;
+    margin-bottom: 20px;
+    font-size: 30px;
+    font-weight: 700;
+  }
+  .ejout-text3 h3 {
+    color: whitesmoke;
+    font-weight: 100;
+    line-height: 25px;
+  }
+  .ejouy-img3 {
+    width: 100%;
+    text-align: center;
+  }
+  .ejouy-img3 img {
+    width: 70%;
+  }
+  
+  /* CREATE PROFILES FOR CHILDREN.=============================================================*/
+  
+  #enjoy4 {
+    background-color: black;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    border-top: 1px solid gray;
+    padding: 50px 0px;
+  }
+  .ejout-text4 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 0 1rem;
+  }
+  .ejout-text4 h1 {
+    color: white;
+    margin-bottom: 20px;
+    font-size: 30px;
+    font-weight: 700;
+  }
+  .ejout-text4 h3 {
+    color: whitesmoke;
+    font-weight: 100;
+    line-height: 25px;
+  }
+  .ejouy-img4 {
+    width: 100%;
+    text-align: center;
+  }
+  .ejouy-img4 img {
+    width: 70%;
+  }
+  .foot-links-row {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    row-gap: 20px;
+  }
+  .foot-links-row ul{
+    width: 100%;
+    margin: auto;
+  }
+}
